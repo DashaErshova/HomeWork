@@ -6,9 +6,10 @@
 
 Console.WriteLine("Введите натуральное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-if (number >0){
-for ( int i =2 ; i <=number; i+= 2)
+if (number > 0)
 {
-Console.Write ( i + " ");
-}
+    for (int i = 2; i <= number; i += 2)
+    {
+        Console.Write(i + " ");
+    }
 }
