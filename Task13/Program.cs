@@ -32,3 +32,4 @@ void thirdOne(int num){
         Console.WriteLine("there is no third digit");
     }
 }
+
