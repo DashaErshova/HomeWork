@@ -1,8 +1,8 @@
-﻿Задача 49: Задайте двумерный массив. Найдите элементы, у
-которых оба индекса чётные, и замените эти элементы на их
-квадраты.
+﻿// Задача 49: Задайте двумерный массив. Найдите элементы, у
+// которых оба индекса чётные, и замените эти элементы на их
+// квадраты.
 
-int[,] CreateMatrixRndInt(int rows, int columns, int min, int max)
+ int[,] CreateMatrixRndInt(int rows, int columns, int min, int max)
 {
     int[,] matrix = new int[rows, columns]; // 0, 1
 
